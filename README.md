@@ -80,5 +80,5 @@ vi /etc/resolv.conf
 
 
 
-## 参考文献
+# 参考文献
 [GitHub Docs 基本的な書き方とフォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
