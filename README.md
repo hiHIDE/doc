@@ -1,7 +1,8 @@
-# doc
-各種ドキュメント
+# 各種ドキュメント
 
 ## Windows11でWSL2を使ってLinux（Ubuntu）環境を作る
+<details>
+<summary>WSLを有効にする</summary>
 
 ### WSLを有効にする
 
@@ -18,8 +19,12 @@
   <img src="/img/Enabling_or_Disabling_in_Windows.png">
   
 6. インストール完了後「今すぐ再起動」を選択します。
+</details>
 
-### Linuxカーネル更新プログラムパッケージをインストールします。
+<details>
+<summary>Linuxカーネル更新プログラムパッケージをインストールする</summary>
+
+### Linuxカーネル更新プログラムパッケージをインストールする
 
 1. 最新のパッケージをダウンロードします。
    
@@ -27,7 +32,13 @@
 2. 更新プログラムを実行します。
 3. 管理者権限のアクセスを求めるメッセージが表示されたら、「はい」を選択してインストールを実行します。
 
+</details>
+
+<details>
+<summary>Ubuntuをインストール</summary>
+
 ### Ubuntuをインストール
+
 1. Microsoft Storeで「Ubuntu」を検索します。
 2. 最新バージョンの「Ubuntu 24.04 LTS」などをインストールします。
 > バージョンの記載がない「Ubuntu」は、LTSがリリースされる度に自動でアップデートされていくようなので、環境に影響がでる可能性があります。
@@ -65,9 +76,9 @@ vi /etc/resolv.conf
 ```
 
 7. WSL2の設定は完了です。
+</details>
 
 
 
-
-### 参考
+### 参考文献
 [GitHub Docs 基本的な書き方とフォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
