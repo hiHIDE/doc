@@ -78,7 +78,8 @@ vi /etc/resolv.conf
 7. WSL2の設定は完了です。
 </details>
 
-
+### 参考にさせていただきました。
+[WindowsでWSL2＋Docker＋PHP開発環境の構築](https://zenn.dev/babyjob/articles/38955cb1956e72)
 
 # 参考文献
 [GitHub Docs 基本的な書き方とフォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
