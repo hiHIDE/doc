@@ -227,5 +227,43 @@ php artisan serve &
 ### 参考にさせていただきました
 [WSL2: UbuntuでPHP+MySQL+Laravelインストールの手順](https://qiita.com/yoshi_yast/items/dcaffa47758a5aa4953b)
 
+## Visual Studio CodeのインストールとUbuntu on WSL2への接続
+
+<details>
+<summary>VS Code</summary>
+
+### VS Codeインストーラーのダウンロード
+
+1. インストーラーをダウンロードします。
+  [VS Codeダウンロードページ](https://code.visualstudio.com/download)にアクセスし、インストーラーをダウンロードします。
+
+2. ダウンロードしたインストーラーを実行します。
+  「PATHへの追加(再起動後に使用可能)」にチェックが入っている状態で「次へ」をクリックします。
+  <img src="/img/VScodeInstall.png">
+  
+    VS Codeのインストールが完了し、Windowsを再起動します。
+
+4. UbuntuからVS Codeを起動します。
+  Ubuntu上で下記コマンドを実行することでUbuntuと接続した状態で、VS Codeが起動できます。
+
+```
+// VS Codeを開きたいディレクトリに移動
+cd example-app
+
+// 
+code .
+
+  // 初回の実行時は、VS Code Server for Linux がInstallされます。
+  Installing VS Code Server for Linux x64 (eaa41d57266683296de7d118f574d0c2652e1fc4)
+  Downloading: 100%
+  Unpacking: 100%
+  ...
+```
+
+</details>
+
+### 参考にさせていただきました
+[Visual Studio CodeのインストールとUbuntu on WSL2への接続](https://qiita.com/hiropon1839/items/0f48d85733ad0c85b3b1)
+
 # 参考文献
 [GitHub Docs 基本的な書き方とフォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
