@@ -71,7 +71,7 @@
 [WindowsでWSL2＋Docker＋PHP開発環境の構築](https://zenn.dev/babyjob/articles/38955cb1956e72)
 
 
-## WSL2のLinux（Ubuntu）でPHP+MySQL+Laravel環境を作る
+## WSL2（Ubuntu）でPHP+MySQL+Laravel環境を作る
 
 <details>
   <summary>phpをインストール</summary>
