@@ -67,8 +67,6 @@
   7. WSL2の設定は完了です。
 </details>
 
-### 参考にさせていただきました
-[WindowsでWSL2＋Docker＋PHP開発環境の構築](https://zenn.dev/babyjob/articles/38955cb1956e72)
 
 
 ## WSL2（Ubuntu）でPHP+MySQL+Laravel環境を作る
@@ -271,8 +269,6 @@
 
 </details>
 
-### 参考にさせていただきました
-[WSL2: UbuntuでPHP+MySQL+Laravelインストールの手順](https://qiita.com/yoshi_yast/items/dcaffa47758a5aa4953b)
 
 ## Visual Studio CodeをインストールしUbuntu on WSL2を利用する
 
@@ -316,8 +312,6 @@
 
 </details>
 
-### 参考にさせていただきました
-[Visual Studio CodeのインストールとUbuntu on WSL2への接続](https://qiita.com/hiropon1839/items/0f48d85733ad0c85b3b1)
 
 # 参考文献
 [GitHub Docs 基本的な書き方とフォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
