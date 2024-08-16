@@ -312,6 +312,80 @@
 
 </details>
 
+## Laravelの学習
+
+<details>
+  <summary>Laravel Bootcamp</summary>
+
+  ### Laravel Bootcamp
+  https://bootcamp.laravel.com
+
+  1. Blade
+
+     - 強力なテンプレート エンジンです。
+     - [Tailwind CSS](https://tailwindcss.com/)も使用します。
+
+
+      1. Laravel Breezeのインストール
+         
+        > ログイン、登録、パスワードのリセット、電子メールの検証、パスワードの確認など、Laravel のすべての認証機能を最小限かつシンプルに実装したLaravel Breezeをインストールして、アプリケーションをスムーズに開始できるようにします。
+        > インストールしたら、ニーズに合わせてコンポーネントをカスタマイズできます。
+        
+        Laravel Breeze は、Blade テンプレートや、 VueおよびReact with Inertiaなど、ビュー レイヤーのオプションをいくつか提供しています。
+        プロジェクト ディレクトリで新しいターミナルを開き、コマンドを使用して選択したスタックをインストールします。
+        ```
+        composer require laravel/breeze --dev
+   
+        php artisan breeze:install blade
+        ```
+        
+        Blade テンプレートに変更を加えたときは、CSS を自動的に再コンパイルし、ブラウザーを更新するだけです。
+        ```
+        npm run dev
+        ```
+
+
+      2. WSL2のUbuntu環境でエラーが出たので不足分をインストールします。
+         
+        ```
+        // unzipのインストール
+        sudo apt-get install unzip
+        
+        // Node.jsのバージョン管理ツールfnmのインストール
+        curl -fsSL https://fnm.vercel.app/install | bash
+  
+        // Node.js v22のインストール
+        fnm use --install-if-missing 22
+  
+        // パッケージのインストール
+        npm install
+  
+        ```
+        ブラウザで新しい Laravel アプリケーションを更新すると、右上に「登録」リンクが表示されます。それをクリックすると、Laravel Breeze が提供する登録フォームが表示されます。
+        アカウントを登録してログインしてください！
+  
+
+
+      3. モデル、マイグレーション、コントローラー
+         
+        - モデルは、データベース内のテーブルを操作するための強力で楽しいインターフェースを提供します。
+        - マイグレーションにより、データベース内のテーブルを簡単に作成および変更できます。マイグレーションにより、アプリケーションが実行されるすべての場所で同じデータベース構造が存在することが保証されます。
+        - コントローラーは、アプリケーションに対して行われたリクエストを処理し、応答を返す役割を担います。
+        構築するほぼすべての機能には、これらすべての部分が調和して機能することが含まれるため、artisan make:modelコマンドを使用すると、一度にすべてを作成できます。
+        次のコマンドで、Chirps のモデル、マイグレーション、およびリソース コントローラーを作成できます。
+        ```
+        php artisan make:model -mrc Chirp
+  
+        /// 利用可能なすべてのオプション確認は
+        php artisan make:model --help
+        ```
+      
+  3. Livewire
+  
+  
+  4. JavaScript & Inertia
+  
+</details>
 
 # 参考文献
 [GitHub Docs 基本的な書き方とフォーマットの構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
