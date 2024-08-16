@@ -379,7 +379,17 @@
         /// 利用可能なすべてのオプション確認は
         php artisan make:model --help
         ```
-      
+        次の 3 つのファイルが作成されます。
+     
+        ```app/Models/Chirp.php``` - Eloquentモデル。
+     
+        ```database/migrations/<timestamp>_create_chirps_table.php``` - データベース テーブルを作成するデータベースマイグレーション。
+
+        ```app/Http/Controllers/ChirpController.php``` - 受信したリクエストを受け取り、応答を返す HTTP コントローラー。
+
+      4. ルーティング
+        
+        
   3. Livewire
   
   
